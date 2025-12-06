@@ -1,0 +1,14 @@
+{
+  "name": "@ignite-ui/docs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "devDependencies": {
+    "storybook": "latest",
+    "storybook-deployer": "latest"
+  }
+}
