@@ -18,3 +18,7 @@ pnpm-debug.log*
 
 # Turbo cache
 .turbo/
+
+# Build de libs
+packages/*/dist/
+
